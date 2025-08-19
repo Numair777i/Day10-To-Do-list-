@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 20px;
+  position: relative;
+}
+
+.card{
+  width: 400px;
+  height: 205px;
+  background-color: #ffe0e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+h1{
+  position: absolute;
+  top: 290px;
+  background-color: #ffc2d4 ;
+}
+
+h2{
+  position: absolute;
+  top: 340px;
+  left: 580px;
+  background-color: #ff9ebb;
+}
